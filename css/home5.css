@@ -1,0 +1,378 @@
+.category-more-detail {
+	margin-top:70px;
+	padding: 0px 7%;
+}
+
+.tab-content {
+	border: 1px solid #c9c9c9;
+	border-top: none;
+	padding: 5px;
+}
+
+.category-title {
+	display: flex;
+	margin: 0px 300px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.col-xs-15 {
+	width: 20% !important;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-15 {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.tab-content {
+		padding: 2px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-15 {
+		width: 20% !important;
+		float: left;
+		max-width: 20% !important;
+		flex: 0 0 20% !important;
+	}
+}
+
+.banner-padding {
+	padding: 3px !important;
+}
+
+.container-fluid .row .banner-padding {
+	height: calc(((100vw - 14*100vw/100)/4)*291*2/450);
+}
+
+@media only screen and (max-width: 700px) {
+	.banner-padding {
+		padding: 3px 0px !important;
+	}
+
+	.category-more-detail {
+		padding: 0px !important;
+	}
+
+	.category-title {
+		margin: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.container-fluid .row .banner-padding {
+		height: calc(100vw * 591/909) !important;
+	}
+
+	#banner {
+		padding: 0px !important;
+	}
+
+	::-webkit-scrollbar {
+    	width: 0px;  /* remove scrollbar space */
+    	background: transparent;  /* optional: just make scrollbar invisible */
+	}
+
+	#main-banner {
+		padding: 0 !important;
+		margin-bottom: 3px;
+	}
+}
+
+#banner {
+	padding: 0px 7%;
+}
+
+.carousel-indicators li {
+	width: 12px !important;
+	height: 12px !important;
+	cursor: pointer;
+	border-radius: 999px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 30px !important;
+	height: 30px !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url('../svg/chevron-sign-to-right.svg') !important;
+}
+
+.carousel-control-prev-icon {
+	background-image: url('../svg/chevron-sign-to-left.svg') !important;
+}
+
+.banner-around-item:hover {
+	filter: brightness(120%);
+	-webkit-filter:brightness(120%);
+	transition: filter .15s ease-in;
+}
+
+.container-fluid .row .banner-padding div {
+	height: 100%;
+}
+
+.carousel-item {
+	height: 100%;
+}
+
+.carousel-item div {
+	background-size: 100% 100%;
+}
+
+.banner-item {
+	height: calc(((100vw - 14*100vw/100)/4)*291/450) !important;
+}
+
+.banner-around-item {
+	background-size: calc(100% * 4) calc(100% * 2);
+	background-image: url('../img/around-banner-version-3.jpg');
+}
+
+.nav-tabs .nav-link.active {
+	border: none;
+	border-radius: unset;
+	color: #f2592a !important;
+	font-size: 13px;
+	padding: 5px 10px;
+}
+
+.nav-tabs .nav-link {
+	border: none !important;
+	border-radius: unset;
+	color: #555 !important;
+	font-size: 13px;
+	padding: 5px 10px;
+}
+
+.nav-tabs {
+	border-bottom:none !important;
+}
+
+.nav-tabs .nav-item {
+	margin-bottom: 0px !important;
+}
+
+.nav-tabs .nav-link:hover {
+	background-color: #fcb0404f;
+	border-radius: 0px;
+}
+
+.line-category {
+	height: 3px;
+}
+
+.category-title-style {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	width: 140px;
+}
+
+.category-icon {
+	height: 20px;
+	background-color: white;
+}
+
+.mom-category-icon {
+	width: 13px !important;
+	-webkit-mask-size: 13px 20px;
+	-webkit-mask-image: url(../svg/pregnant.svg);
+}
+
+.beautiful-category-icon {
+	width: 9px !important;
+	-webkit-mask-size: 9px 20px;
+	-webkit-mask-image: url(../svg/lipstick.svg);
+}
+
+.fashion-category-icon {
+	width: 13px !important;
+	-webkit-mask-size: 13px 20px;
+	-webkit-mask-image: url(../svg/dress.svg);
+}
+
+.furniture-category-icon {
+	width: 23px !important;
+	-webkit-mask-size: 23px 20px;
+	-webkit-mask-image: url(../svg/armchair.svg);
+}
+
+.elec-category-icon {
+	width: 12px !important;
+	-webkit-mask-size: 12px 20px;
+	-webkit-mask-image: url(../svg/smartphone.svg);
+}
+
+.sport-category-icon {
+	width: 21px !important;
+	-webkit-mask-size: 21px 20px;
+	-webkit-mask-image: url(../svg/running.svg);
+}
+
+.goods-category-icon {
+	width: 20px !important;
+	-webkit-mask-size: 20px 20px;
+	-webkit-mask-image: url(../svg/goods.svg);
+}
+
+.office-category-icon {
+	width: 16px !important;
+	-webkit-mask-size: 16px 20px;
+	-webkit-mask-image: url(../svg/pencil.svg);
+}
+
+.category-title-content {
+	margin-left: 10px !important;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+.tab-category {
+	border: 1px solid #c9c9c9;
+	background-color: white;
+}
+
+.tab-category .nav-tabs {
+	display: flex;
+	width: fit-content;
+}
+
+.tab-line {
+	width: calc((100% - 140px)/2);
+}
+
+.bottom-category {
+	margin: 30px auto 0;
+    width: fit-content;
+}
+
+.bottom-category a {
+	text-decoration: none !important;
+}
+
+#line-home {
+	height: 4px;
+    background-color: #e8467b;
+    margin-top: 70px;
+}
+
+.introduce-item {
+	padding: 20px !important;
+}
+
+.icon-introduce {
+	height: 70px;
+}
+
+.title-introduce {
+	text-align: center;
+	margin-top: 12px;
+	color: #7e6aee;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content-introduce {
+	color: rgba(0,0,0,.54);
+	font-size: 14px;
+	margin-top: 3px;
+	text-align: center;
+}
+
+#delivery-icon {
+	width: 70px;
+	background-image: url('../svg/free-delivery.svg');
+}
+
+#medal-icon {
+	width: 46px;
+	background-image: url('../svg/medal.svg');
+}
+
+#comfortable-icon {
+	width: 80px;
+	background-image: url('../svg/armchair_com.svg');
+}
+
+#category-container > .category-more-detail {
+	margin-top: 120px;
+}
+
+#category-container > .category-more-detail:first-child {
+	margin-top: 70px;
+}
+
+.carousel-item > div {
+	background-image: url('../img/wheel-center-banner.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner > .carousel-item:nth-child(1) > div {
+	background-position: 0 0;
+}
+
+.carousel-inner > .carousel-item:nth-child(2) > div {
+	background-position: 0 25%;
+}
+
+.carousel-inner > .carousel-item:nth-child(3) > div {
+	background-position: 0 50%;
+}
+
+.carousel-inner > .carousel-item:nth-child(4) > div {
+	background-position: 0 75%;
+}
+
+.carousel-inner > .carousel-item:nth-child(5) > div {
+	background-position: 0 100%;
+}
+
+#banner-around1 {
+	background-position: 0 0;
+}
+
+#banner-around2 {
+	background-position: 33.3333333333% 0;
+}
+
+#banner-around3 {
+	background-position: 66.6666666666% 0;
+}
+
+#banner-around4 {
+	background-position: 100% 0;
+}
+
+#banner-around5 {
+	background-position: 0 100%;
+}
+
+#banner-around6 {
+	background-position: 33.3333333333% 100%;
+}
+
+#banner-around7 {
+	background-position: 66.6666666666% 100%;
+}
+
+#banner-around8 {
+	background-position: 100% 100%;
+}

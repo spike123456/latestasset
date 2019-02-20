@@ -1,0 +1,1279 @@
+body {
+	background-image: url('https://asset.doraeshop.vn/img/bullet.png') !important;
+}
+
+#main-footer {
+	background-color: #2a2f35;
+	padding: 30px 7%;
+}
+
+.info-footer {
+	padding: 10px !important;
+}
+
+.main-page-content {
+	padding: 0px 5px;
+}
+
+.common-padding {
+	padding: 0px 5%;
+}
+
+.logo-style {
+	max-width: 80% !important;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+#header-desktop {
+	display: block;
+	background-color: #fcb040;
+}
+
+#header-mobile {
+	display: none;
+}
+
+#cart-content-list {
+	height: 300px;
+	overflow-y: auto;
+	display: inline-block;
+}
+
+#hint-cart {
+	color: #da0000;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	padding: 5px;
+	background-color: yellow;
+	display: none;
+}
+
+.content-full {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#order-content {
+	overflow-y: auto;
+	max-height: 314px;
+}
+
+#cart-content-address {
+	overflow-y: auto;
+	height: 314px;
+}
+
+#cart-payment-third {
+	overflow-y: scroll;
+	height: 315px;
+}
+
+.left-column-info, .right-column-info {
+	border: 2px solid #888686;
+}
+
+.left-column-info {
+	border-right-width: 1px;
+}
+
+.right-column-info {
+	border-left-width: 1px;
+}
+
+.none-column-info {
+	border-top-width: 0;
+}
+
+#input-order {
+	width: 150px;
+}
+
+#label-status {
+	width: 1%;
+    white-space: nowrap;
+    padding: 0 5px 0 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+#label-status > a {
+	color: #f2592a;
+}
+
+#marquee-layout {
+	max-width:300px;
+}
+
+@media only screen and (max-width: 700px) {
+	#label-status {
+    	padding: 0 5px;
+	}
+
+	.content-full {
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+	#header-desktop {
+		display: none;
+	}
+
+	#header-mobile {
+		display: block;
+		border-bottom: 1px solid #fcb040;
+		box-shadow: 0 4px 12px -2px grey;
+	}
+
+	.logo-style {
+		max-width: 50% !important;
+	}
+
+	.item_menu_content {
+		font-size: 11px !important;
+	}
+
+	.main-item-product {
+		padding: 2px !important;
+	}
+
+	.common-padding {
+		padding: 0px;
+	}
+
+	#main-footer {
+		padding: 30px 0px;
+	}
+
+	.info-footer {
+		padding: 15px 5px !important;
+	}
+
+	.content-margin {
+		margin-top: 95px !important;
+	}
+
+	#cart-content-list {
+		height: 200px;
+	}
+
+	#cart-content-address {
+		height: 242px;
+	}
+
+	#cart-payment-third {
+		overflow-y: auto;
+		height: 243px;
+	}
+
+	#input-order {
+		width: 100px;
+	}
+
+	.main-page-content {
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#hint-cart {
+		display: block;
+	}
+
+	.left-column-info {
+		border-right-width: 2px;
+	}
+
+	.right-column-info {
+		border-left-width: 2px;
+	}
+
+	.nth-column-info {
+		border-top-width: 0;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.main-item-product {
+		padding: 5px !important;
+	}
+}
+
+.content-margin {
+	margin-top: 150px;
+}
+
+.item_menu {
+	width: 100px;
+	height: 33px;
+}
+
+.item_menu a {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none !important;
+}
+
+.item_menu:hover {
+	background-color: #2a68f278 !important;
+}
+
+.marquee {
+	overflow: hidden;
+}
+
+#status-bar {
+	background-color: #F7F8FA;
+	height: 25px;
+}
+
+.marquee > div > div > a:first-child {
+	margin-left: 0;
+}
+
+.marquee > div > div > a {
+	color: #2674aa;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 50px;
+}
+
+.header-accent {
+	background-color: white;
+}
+
+#header-desktop .header-accent {
+	padding:0px 10%;
+}
+
+.container-fluid {
+	padding:0px !important;
+}
+
+.container-fluid .row {
+	margin:0px;
+}
+
+#logo-container {
+	padding: 5px 0 10px;
+	text-align: center;
+}
+
+#search-container {
+	padding: 0px 10px;
+	display: flex;
+	align-items: center;
+}
+
+#search-container div div:first-child {
+	display: flex;
+}
+
+.search-box {
+	width: calc(100% - 80px) !important;
+	height: 35px;
+}
+
+.main-input-box {
+	border: none !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	font-size: 14px !important;
+	background-color: #F7F8FA !important;
+}
+
+.search-container-first-child {
+	margin-top: 5px;
+	width: 100%;
+}
+
+.button-input-box {
+	width: 80px;
+	height: 35px;
+	background-color: #fcb040;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border: none !important;
+}
+
+.button-input-box span {
+	font-size: 20px;
+	color: white;
+}
+
+.button-input-box:focus {
+	box-shadow: none !important;
+}
+
+.hint-search-box {
+	height: 20px;
+	font-size: 10px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.center-middle {
+	display: flex;
+	align-items: center;
+}
+
+.btn-system {
+	width: 60px;
+	margin-left: 15px;
+}
+
+.btn-system .fa, #collapsibleNavbar ul li .container-fluid .row div div .fa {
+	width:100%;
+	font-size: 30px;
+	color: #fcb040;
+	text-align: center;
+}
+
+.title-btn-system {
+	font-size: 11px;
+	text-align: center;
+	color: #fcb040;
+}
+
+#category-bar {
+	list-style: none;
+	display: flex;
+	padding: 0px;
+	width: fit-content;
+	width: intrinsic;
+  	width: -moz-max-content;
+}
+
+#category-bar > li {
+	/*margin-left: 15px;*/
+	/*box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.7);*/
+}
+
+.item_menu a .center-middle {
+	width: fit-content;
+	height: fit-content;
+	margin: 0px auto;
+}
+
+.item_menu a .center-middle .item_menu_icon, #mobile-grid .row .mobile-grid-item a div .item_menu_icon, .category-more-detail div div div div .item_menu_icon {
+	height:15px;
+	background-color: white;
+}
+
+#mobile-grid .row .mobile-grid-item a div .item_menu_icon {
+
+}
+
+.item_menu_content {
+	margin-left: 4px !important;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+}
+
+#collapsibleNavbar ul li .container-fluid {
+	margin-top: 20px;
+}
+
+#collapsibleNavbar ul li .container-fluid .row div {
+	padding: 0px;
+	text-align: center;
+}
+
+#collapsibleNavbar ul li .container-fluid .row div .hand {
+	width: 60px;
+	margin: 0px auto;
+}
+
+.flex-class {
+	display: flex;
+}
+
+#mobile-grid {
+	margin-top: 10px !important;
+}
+
+.mobile-item-category {
+	height: 30px;
+}
+
+.mobile-item-category a {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none !important;
+}
+
+.mobile-grid-item {
+	height: 30px;
+	margin: 5px;
+}
+
+.mobile-grid-item a {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none !important;
+}
+
+.mobile-grid-item a div {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	height: fit-content;
+	margin:0px auto;
+}
+
+.tab-style {
+	background-color: #fcb040;
+}
+
+.mom-icon {
+	width:10px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/pregnant.svg');
+}
+
+.beautiful-icon {
+	width:7px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/lipstick.svg');
+}
+
+.fashion-icon {
+	width:10px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/dress.svg');
+}
+
+.furniture-icon {
+	width:17px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/armchair.svg');
+}
+
+.elec-icon {
+	width:9px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/smartphone.svg');
+}
+
+.sport-icon {
+	width:16px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/running.svg');
+}
+
+.goods-icon {
+	width:15px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/goods.svg');
+}
+
+.office-icon {
+	width:12px !important;
+	-webkit-mask-image: url('https://asset.doraeshop.vn/svg/pencil.svg');
+}
+
+.row [class^="col"] {
+	padding: 0px;
+}
+
+.real-price {
+	text-decoration: line-through;
+}
+
+.real-price span {
+	text-decoration: none;
+}
+
+.center-horizontal {
+	margin: 0px auto;
+}
+
+.main-item-product a {
+	text-decoration: none !important;
+}
+
+.main-img-product {
+	height: 180px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.title-product {
+	color: #727385;
+	font-size: 13px;
+	padding: 5px;
+	font-weight: bold;
+	height: 46px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.price-product {
+	margin-left: 5px;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content-product {
+	margin:0px 5px;
+	color: gray;
+	font-size: 12px;
+	padding: 3px 0px;
+}
+
+.see-all {
+	display: block;
+	color: #f2592a;
+	text-align: center;
+	width: 145px;
+	border: 1px solid #f2592a;
+	height: 30px;
+	line-height: 28px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 15px auto 10px;
+	background-color: white;
+}
+
+.see-all:hover {
+	color: #fff;
+	background-color: #f2592a;
+	text-decoration: none;
+}
+
+.title-footer {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.link-footer {
+	margin-top: 3px;
+}
+
+.first-link-footer {
+	margin-top: 10px;
+}
+
+.link-footer a, .first-link-footer a, .link-footer a:hover, .first-link-footer a:hover {
+	color: #ababab;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+#fb-footer {
+	text-align: center;
+}
+
+.favorite-btn {
+	color: #f2592a;
+	font-size: 24px !important;
+	padding: 5px;
+}
+
+.discount-product {
+	color: white;
+	background-color: #ff1b1b80;
+	padding: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	border-top-right-radius: calc(.25rem - 1px);
+}
+
+.content-product .float-right {
+	color: #267100;
+	font-size: 12px;
+}
+
+.card:hover {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#cart-address-option, #cart-city-address-option, #district-address {
+	width: 100%;
+	font-size: 15px;
+	padding: 6px 1.75rem 6px .75rem !important;
+	color: #81888f !important;
+	font-weight: 400;
+}
+
+.custom-select {
+	font-size: 14px;
+	padding: 5px 1.75rem 5px 8px !important;
+	height: auto !important;
+	cursor: pointer;
+}
+
+.modal-content {
+	border:none !important;
+}
+
+.header-modal {
+	background-color: #f3582b;
+	border-top-left-radius: .3rem;
+	border-top-right-radius: .3rem;
+	padding: 20px 0px;
+}
+
+.half-line-step {
+	display: inline-block;
+	width: calc((100% - 30px)/2);
+}
+
+.space-line-step {
+	height: 0px;
+}
+
+.line-step {
+	height: 1px;
+	background-color: #fcb040;
+}
+
+.checkout-step {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #fcb040;
+	border-radius: 999px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	color: white;
+	font-weight: 600;
+}
+
+.current-step {
+	background-color: white;
+	color: #f2592a;
+}
+
+.header-modal > .container-fluid > div {
+	margin-top: 5px;
+}
+
+#size-step {
+	height: 30px;
+	margin-top: 0px !important;
+}
+
+.step-label {
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	font-weight: 100;
+}
+
+.current-step-label {
+	font-weight: 500;
+}
+
+.cancel-modal {
+	height: 36px;
+	padding: 0px 16px;
+	width: fit-content;
+	line-height: 36px;
+	display: inline-block;
+	color: rgba(0,0,0,0.54);
+	border-radius: 2px;
+	-webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	-webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.cancel-modal:hover {
+	background: rgba(0,0,0,.06);
+}
+
+.cancel-modal:active {
+	background: rgba(0,0,0,.18);
+}
+
+.confirm-modal {
+	color: rgb(255,255,255);
+	background-color: #f2592a;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+	height: 36px;
+	padding: 0px 16px;
+	width: fit-content;
+	line-height: 36px;
+	display: inline-block;
+	border-radius: 2px;
+	font-weight: 500;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	-webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+	margin-left: 5px;
+}
+
+.confirm-modal:hover {
+	background-color: #d64316 !important;
+}
+
+.confirm-modal:active {
+	background-color: #8c3014 !important;
+}
+
+.cart-select {
+	font-size: 12px;
+}
+
+#cart-first-step {
+	background-color: #FAFAFA;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#cart-header-label {
+	height: 40px;
+	width: 800px;
+	color: white;
+	font-size: 13px;
+	background-color: #fcb040;
+}
+
+#cart-header-label > tbody > tr > td {
+	font-weight: 600;
+	text-align: center;
+}
+
+.cart-line {
+	width: 800px;
+	height: 1px;
+	background-color: #cbcbcb;
+}
+
+#cart-content-list > table {
+	width: 800px;
+	font-size: 12px;
+}
+
+#cart-content-list > table > tbody > tr > td {
+	vertical-align: top;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 12px;
+}
+
+#cart-content-list > table > tbody > tr > td:first-child {
+	padding: 7px;
+}
+
+#cart-content-list > table > tbody > tr > td:nth-child(2) {
+	padding-left: 5px;
+	text-align: left;
+	font-weight: 600;
+}
+
+#cart-content-list > table > tbody > tr > td:nth-child(4) {
+	padding-top: 5px;
+}
+
+#cart-content-list > table > tbody > tr > td:last-child {
+	text-align: left;
+}
+
+.remove-cart {
+	width: 18px;
+	height: 18px;
+	background-image: url('https://asset.doraeshop.vn/svg/remove.svg');
+	cursor: pointer;
+}
+
+.footer-modal {
+	height: 60px;
+	border-bottom-left-radius: .3rem;
+	border-bottom-right-radius: .3rem;
+	background-color: #eee;
+	text-align: right;
+	line-height: 60px;
+}
+
+.normal-form-control:focus {
+	border-color: #dca817 !important;
+	box-shadow: 0 0 0 0.2rem #d06e0a40 !important;
+}
+
+.normal-form-control::-webkit-input-placeholder {
+	color: #81888f !important;
+	font-weight: 400;
+}
+
+.normal-form-control::-moz-placeholder {
+	color: #81888f !important;
+	font-weight: 400;
+}
+
+.normal-form-control::-ms-placeholder {
+	color: #81888f !important;
+	font-weight: 400;
+}
+
+.main-input-box:focus {
+	box-shadow: none !important;
+}
+
+.main-input-box::-webkit-input-placeholder {
+	color: #919493 !important;
+}
+
+.main-input-box::-moz-placeholder {
+	color: #919493 !important;
+}
+
+.main-input-box::-ms-placeholder {
+	color: #919493 !important;
+}
+
+#label-cart-address {
+	color: #505050;
+	font-size: 14px;
+	height: 32px;
+	padding: 0px 10px;
+	line-height: 32px;
+}
+
+#cart-content-address > .container-fluid {
+	margin: 10px 0px;
+}
+
+#cart-content-address > .container-fluid > .row > div {
+	padding: 10px;
+}
+
+#cart-content-address > .container-fluid > .row > div > .form-control {
+	font-size: 15px;
+}
+
+textarea {
+	resize: none !important;
+}
+
+.toast-bottom-right {
+	bottom: 50px !important;
+}
+
+#total-price-first-step {
+	text-align: center;
+	background-color: white;
+	font-size: 14px;
+	font-weight: 400;
+	color: #f3582b;
+	padding: 5px;
+	border-top: 1px solid #eee;
+}
+
+.third-content {
+	color: #006e98;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.title-table-third {
+	color: black;
+	font-size: 14px;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #f3ffed;
+}
+
+#promotion {
+	outline: none;
+	border: 1px solid #fcb040;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 13px;
+	padding: 5px 10px;
+	width: 100%;
+	border-right-width: 0;
+}
+
+#promotion::-webkit-input-placeholder {
+	color: #b9ab94 !important;
+	font-weight: 400;
+}
+
+#promotion::-moz-placeholder {
+	color: #b9ab94 !important;
+	font-weight: 400;
+}
+
+#promotion::-ms-placeholder {
+	color: #b9ab94 !important;
+	font-weight: 400;
+}
+
+#cart-payment-third > .container-fluid {
+	margin: 0 7% 10px 7%;
+	width: auto;
+}
+
+.line-third-step {
+	height: 2px;
+	background-color: #888686;
+}
+
+.review-info {
+	font-size: 13px;
+	line-height: 25px;
+	color: #605b5b;
+}
+
+.review-content {
+	padding: 10px;
+}
+
+.review-content > table, #review-order-info > table {
+	width: 100%;
+	font-size: 13px;
+}
+
+.review-content > table:last-child, #review-order-info > table:last-child {
+	margin: 5px auto;
+	width: auto;
+	font-size: inherit;
+}
+
+.label-review-order {
+	width: 50%;
+	color: #7c837f;
+	padding-top: 8px;
+}
+
+.value-review-order {
+	width: 50%;
+	color: black;
+	text-align: right;
+	padding-top: 8px;
+}
+
+#divider-review-order {
+	height: 1px;
+	background-color: #888686;
+	margin: 8px 0px;
+}
+
+#total-label-review-order {
+	width: 50%;
+	color: #0020ff;
+	font-weight: bold;
+}
+
+#total-value-review-order {
+	width: 50%;
+	color: red;
+	font-size: 15px;
+	text-align: right;
+}
+
+#question-promotion-review-order {
+	margin-top: 10px;
+	color: #b93791;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#group-promotion-input {
+	width: 140px;
+	padding: 0;
+}
+
+#button-promotion-input {
+	width: 60px;
+	padding: 0;
+	background-color: #fcb040;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+}
+
+#button-promotion-input > div {
+	background-image: url('https://asset.doraeshop.vn/svg/giftbox.svg');
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.checkbox-label {
+	position: relative;
+	display: block;
+	padding: 5px 5px 5px 25px;
+	margin: 0 0 0 0;
+	line-height: 20px;
+	color: #000;
+	font-size: 13px;
+	font-weight: 400;
+	cursor: pointer;
+	border-radius: 0px;
+	padding-left: 0px;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(252, 176, 64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.navbar-toggler {
+	border-color: rgb(252, 176, 64) !important;
+}
+
+.note-cart {
+	color: #837878;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.title-modal {
+	font-size: 16px;
+	color: white;
+	font-weight: 500;
+	padding-left: 30px;
+}
+
+#order-content > table {
+	margin: 30px auto 0;
+}
+
+#label-input-order {
+	font-size: 14px;
+	color: black;
+	padding-right: 10px;
+}
+
+#input-order > input {
+	font-size: 13px;
+}
+
+#button-order-group {
+	padding-left: 10px;
+}
+
+#button-order-group > div {
+	background-color: #1fc342;
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	padding: 5px 10px;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+#hint-order {
+	text-align: center;
+	font-size: 11px;
+	color: #838383;
+	font-weight: 300;
+	margin: 2px 0 30px;
+}
+
+#result-order-search {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#result-order-search > div:first-child {
+	color: #6048c1;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#summary-result {
+	color: black;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#table-result {
+	margin: 20px auto 0;
+	font-size: 14px;
+}
+
+#table-result > tbody > tr:nth-child(odd) {
+	font-weight: bold;
+	background-color: #d800ff0f;
+}
+
+#table-result > tbody > tr:nth-child(even) {
+	color: #ad4141;
+}
+
+#table-result > tbody > tr > td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#table-result > tbody > tr:first-child > td {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#table-result > tbody > tr:first-child > td:nth-child(2) {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.favorite-item {
+	width: 230px;
+}
+
+#favorite-content {
+	overflow-x: scroll;
+	padding: 10px 0;
+}
+
+#favorite-content > div {
+	display: -webkit-box;
+}
+
+.custom-pagination {
+	margin: 25px 0px 50px;
+}
+
+.custom-pagination > ul > li {
+	cursor: pointer;
+}
+
+.loading-indicator {
+	background-image: url('https://asset.doraeshop.vn/svg/general-loading.svg');
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+}
+
+#loading-home {
+	margin: 70px auto 0;
+}
+
+#main-footer-modal {
+	padding-right: 20px;
+}
+
+#processing {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    color: #39a4a4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#loading-order {
+	margin: 0 auto 30px;
+}
+
+#not-found-order {
+	color: #787fb3;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#favorite-empty {
+	margin: 60px 0 40px;
+    text-align: center;
+    color: #7d1f1f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#express-delivery-note > td, #promotion-note > td {
+	color: #728c0b;
+    font-size: 9px;
+}
+
+#express-delivery-question {
+	font-size: 13px;
+    color: #728c0b;
+    margin: 12px 0;
+}
+
+#apply-express-btn {
+	color: #365899;
+    cursor: pointer;
+}
+
+#apply-express-btn:hover {
+	text-decoration: underline;
+}
+
+#loading-review {
+	margin: 40px auto;
+}
+
+#company-footer {
+	color: #f77 !important;
+}
+
+#company-info {
+	color: #63a90d;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+#company-info > div:not(:first-child) {
+	margin-top: 3px;
+}
+
+.social-link {
+	word-wrap: break-word;
+    word-break: break-all;
+}
+
+.social-link > a {
+	color: #9c7d2f;
+    text-decoration: underline;
+}
+
+#agreement {
+	text-align: center;
+    background-color: #bd69001f;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 5px;
+    border-top: 1px solid #90909080;
+    border-bottom: 1px solid #90909080;
+    word-wrap: break-word;
+}
+
+#agreement > a {
+	color: #ec3131;
+}
+
+#promotion-note > td > table > tbody > tr > td:first-child {
+	width: 1%;
+	white-space: nowrap;
+}
+
+#promotion-note > td > table > tbody > tr > td:last-child {
+	padding-left:5px;
+}
+
+#promotion-remove {
+	width: 11px;
+    height: 11px;
+    background-image: url('https://asset.doraeshop.vn/svg/remove.svg');
+    background-size: 11px 11px;
+    cursor: pointer;
+}

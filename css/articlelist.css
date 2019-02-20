@@ -1,0 +1,153 @@
+#label-line-article {
+    height: 3px;
+    background-color: #f2592a;
+}
+
+#label-article {
+    font-size: 15px;
+    color: #f2592a;
+    font-weight: bold;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+.divider-article {
+    height: 1px;
+    background-color: #c3c3c3;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.item-article {
+    margin-top: 10px;
+}
+
+.right-info-article {
+    padding-left: 20px !important;
+}
+
+.right-info-article > h3 {
+    line-height: 22px;
+}
+
+.right-info-article > h3 > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#content-full-article {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+#right-article-list-column {
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    #content-full-article {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .right-info-article {
+        padding-left: 0 !important;
+    }
+
+    #right-article-list-column {
+        padding-left: 0;
+    }
+}
+
+.icon-info-article {
+    padding: 0;
+}
+
+.icon-info-article > div {
+    height: 12px;
+    background-color: #0f96c9;
+}
+
+tr > .icon-info-article:nth-child(even) {
+    padding-right:20px;
+    padding-left: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #0f96c9;
+}
+
+.time {
+    font-size: 13px;
+    color: #888;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.short-info {
+    font-size: 13px;
+    color: #4d4d4d;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.full-box-rank {
+    border: 1px solid #ccc;
+    border-top: 2px solid #888;
+    margin-bottom: 30px;
+    background-color: #f2f3f5;
+}
+
+.label-box-rank {
+    color: #f2592a;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.content-box-rank > tbody > tr:first-child > td {
+    padding: 7px;
+    vertical-align: top;
+}
+
+.title-box-rank {
+    line-height: 14px;
+    font-size: 13px;
+}
+
+.title-box-rank > a {
+    text-decoration: none !important;
+    color: #333 !important;
+    font-weight: 600 !important;
+}
+
+.count-rank {
+    font-size: 11px;
+    color: #8e7d7d;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.divider-box-rank {
+    height: 1px;
+    border-top: 1px dashed #cbc6c6;
+}
+
+.main-line-box-rank {
+    height: 1px;
+    background-color: #888;
+}
+
+#loading-articles {
+    margin: 100px auto;
+}
+
+#loading-top {
+    margin: 30px auto;
+}
